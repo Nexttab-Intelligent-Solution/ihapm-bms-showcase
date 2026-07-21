@@ -1,0 +1,82 @@
+{
+  "_colorScales-DfqtCqwL.js": {
+    "file": "assets/colorScales-DfqtCqwL.js",
+    "name": "colorScales",
+    "imports": [
+      "_commandPalette-BvV8kdS4.js"
+    ]
+  },
+  "_commandPalette-BvV8kdS4.js": {
+    "file": "assets/commandPalette-BvV8kdS4.js",
+    "name": "commandPalette",
+    "dynamicImports": [
+      "src/modes/default/DefaultMode.ts",
+      "src/modes/electricity/ElectricityMode.ts",
+      "src/modes/environment/EnvironmentMode.ts",
+      "src/modes/occupancy/OccupancyMode.ts"
+    ]
+  },
+  "examples/manager/index.html": {
+    "file": "assets/manager-BuyEEeAb.js",
+    "name": "manager",
+    "src": "examples/manager/index.html",
+    "isEntry": true,
+    "imports": [
+      "_commandPalette-BvV8kdS4.js"
+    ],
+    "css": [
+      "assets/manager-C0PnMXmp.css"
+    ]
+  },
+  "index.html": {
+    "file": "assets/main-Crh9G10U.js",
+    "name": "main",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_commandPalette-BvV8kdS4.js"
+    ],
+    "css": [
+      "assets/main-J2mQOQcL.css"
+    ]
+  },
+  "src/modes/default/DefaultMode.ts": {
+    "file": "assets/DefaultMode-6tHksXVs.js",
+    "name": "DefaultMode",
+    "src": "src/modes/default/DefaultMode.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_commandPalette-BvV8kdS4.js"
+    ]
+  },
+  "src/modes/electricity/ElectricityMode.ts": {
+    "file": "assets/ElectricityMode-D9uOeN15.js",
+    "name": "ElectricityMode",
+    "src": "src/modes/electricity/ElectricityMode.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_commandPalette-BvV8kdS4.js",
+      "_colorScales-DfqtCqwL.js"
+    ]
+  },
+  "src/modes/environment/EnvironmentMode.ts": {
+    "file": "assets/EnvironmentMode-Cd4uV1Lg.js",
+    "name": "EnvironmentMode",
+    "src": "src/modes/environment/EnvironmentMode.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_commandPalette-BvV8kdS4.js",
+      "_colorScales-DfqtCqwL.js"
+    ]
+  },
+  "src/modes/occupancy/OccupancyMode.ts": {
+    "file": "assets/OccupancyMode-XH61KpSF.js",
+    "name": "OccupancyMode",
+    "src": "src/modes/occupancy/OccupancyMode.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_commandPalette-BvV8kdS4.js",
+      "_colorScales-DfqtCqwL.js"
+    ]
+  }
+}

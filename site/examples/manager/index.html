@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOLO-BMS · Building Manager</title>
+    <script type="module" crossorigin src="/ihapm-bms-showcase/assets/manager-BuyEEeAb.js"></script>
+    <link rel="modulepreload" crossorigin href="/ihapm-bms-showcase/assets/commandPalette-BvV8kdS4.js">
+    <link rel="stylesheet" crossorigin href="/ihapm-bms-showcase/assets/manager-C0PnMXmp.css">
+  </head>
+  <body>
+    <div id="app-grid">
+      <header id="topbar"></header>
+      <aside id="sidebar"></aside>
+      <main id="stage">
+        <button class="back-btn" id="backBtn">◀ Back to building</button>
+        <details class="control-guide" open>
+          <summary>Control guide</summary>
+          <ul>
+            <li><kbd>Floor rail</kbd><span>Choose a floor on the left; use 2D for a readable floor plan.</span></li>
+            <li><kbd>Click / tap</kbd><span>Select a room and inspect it.</span></li>
+            <li><kbd>Double click / tap</kbd><span>Fly into the selected room.</span></li>
+            <li><kbd>Esc</kbd><span>Return to the building overview.</span></li>
+            <li><kbd>Shift + wheel</kbd><span>Optional shortcut for stepping through floors.</span></li>
+            <li><kbd>Ctrl / ⌘ K</kbd><span>Open command search.</span></li>
+          </ul>
+        </details>
+      </main>
+      <aside id="roompanel" hidden></aside>
+    </div>
+  </body>
+</html>
