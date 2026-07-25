@@ -17,8 +17,10 @@ manager view. Data is seeded locally so the page works as a standalone GitHub
 Pages deployment.
 
 The public build starts at the low FX tier: DPR 1, roughly 30 fps, no fog, and
-direct rendering without bloom or scanline post-processing. The Building
-Manager's FX selector can still enable medium or high on capable hardware.
+direct rendering without bloom or scanline post-processing. Its structural
+shaders compensate luminance on that direct path, keeping the building readable
+without restoring an offscreen FX target. The Building Manager's FX selector
+can still enable medium or high on capable hardware.
 
 ## Deployment
 

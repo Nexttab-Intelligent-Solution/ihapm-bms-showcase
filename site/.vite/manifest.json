@@ -1,13 +1,13 @@
 {
-  "_colorScales-BY3XIXlr.js": {
-    "file": "assets/colorScales-BY3XIXlr.js",
+  "_colorScales-Do-Jt3Qx.js": {
+    "file": "assets/colorScales-Do-Jt3Qx.js",
     "name": "colorScales",
     "imports": [
-      "_commandPalette-QGr_Tq0X.js"
+      "_commandPalette-LYpDYkaP.js"
     ]
   },
-  "_commandPalette-QGr_Tq0X.js": {
-    "file": "assets/commandPalette-QGr_Tq0X.js",
+  "_commandPalette-LYpDYkaP.js": {
+    "file": "assets/commandPalette-LYpDYkaP.js",
     "name": "commandPalette",
     "dynamicImports": [
       "src/modes/default/DefaultMode.ts",
@@ -17,66 +17,66 @@
     ]
   },
   "examples/manager/index.html": {
-    "file": "assets/manager-xX6lBqCb.js",
+    "file": "assets/manager-vGXw9nzk.js",
     "name": "manager",
     "src": "examples/manager/index.html",
     "isEntry": true,
     "imports": [
-      "_commandPalette-QGr_Tq0X.js"
+      "_commandPalette-LYpDYkaP.js"
     ],
     "css": [
       "assets/manager-BOi4CliN.css"
     ]
   },
   "index.html": {
-    "file": "assets/main-D1mQFyWk.js",
+    "file": "assets/main-7Y7823Yr.js",
     "name": "main",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_commandPalette-QGr_Tq0X.js"
+      "_commandPalette-LYpDYkaP.js"
     ],
     "css": [
       "assets/main-J2mQOQcL.css"
     ]
   },
   "src/modes/default/DefaultMode.ts": {
-    "file": "assets/DefaultMode-Daf-jN3p.js",
+    "file": "assets/DefaultMode-CY496Raq.js",
     "name": "DefaultMode",
     "src": "src/modes/default/DefaultMode.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_commandPalette-QGr_Tq0X.js"
+      "_commandPalette-LYpDYkaP.js"
     ]
   },
   "src/modes/electricity/ElectricityMode.ts": {
-    "file": "assets/ElectricityMode-CYGGnrsh.js",
+    "file": "assets/ElectricityMode-mxev1r-H.js",
     "name": "ElectricityMode",
     "src": "src/modes/electricity/ElectricityMode.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_commandPalette-QGr_Tq0X.js",
-      "_colorScales-BY3XIXlr.js"
+      "_commandPalette-LYpDYkaP.js",
+      "_colorScales-Do-Jt3Qx.js"
     ]
   },
   "src/modes/environment/EnvironmentMode.ts": {
-    "file": "assets/EnvironmentMode-C0Yq3dhD.js",
+    "file": "assets/EnvironmentMode-CuM7uKzE.js",
     "name": "EnvironmentMode",
     "src": "src/modes/environment/EnvironmentMode.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_commandPalette-QGr_Tq0X.js",
-      "_colorScales-BY3XIXlr.js"
+      "_commandPalette-LYpDYkaP.js",
+      "_colorScales-Do-Jt3Qx.js"
     ]
   },
   "src/modes/occupancy/OccupancyMode.ts": {
-    "file": "assets/OccupancyMode-DAPP0Y68.js",
+    "file": "assets/OccupancyMode-CuB7BAqH.js",
     "name": "OccupancyMode",
     "src": "src/modes/occupancy/OccupancyMode.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_commandPalette-QGr_Tq0X.js",
-      "_colorScales-BY3XIXlr.js"
+      "_commandPalette-LYpDYkaP.js",
+      "_colorScales-Do-Jt3Qx.js"
     ]
   }
 }
