@@ -1,13 +1,13 @@
 {
-  "_colorScales-CCp75tOV.js": {
-    "file": "assets/colorScales-CCp75tOV.js",
+  "_colorScales-BY3XIXlr.js": {
+    "file": "assets/colorScales-BY3XIXlr.js",
     "name": "colorScales",
     "imports": [
-      "_commandPalette-Bmn93FZk.js"
+      "_commandPalette-QGr_Tq0X.js"
     ]
   },
-  "_commandPalette-Bmn93FZk.js": {
-    "file": "assets/commandPalette-Bmn93FZk.js",
+  "_commandPalette-QGr_Tq0X.js": {
+    "file": "assets/commandPalette-QGr_Tq0X.js",
     "name": "commandPalette",
     "dynamicImports": [
       "src/modes/default/DefaultMode.ts",
@@ -17,66 +17,66 @@
     ]
   },
   "examples/manager/index.html": {
-    "file": "assets/manager-Z260R131.js",
+    "file": "assets/manager-xX6lBqCb.js",
     "name": "manager",
     "src": "examples/manager/index.html",
     "isEntry": true,
     "imports": [
-      "_commandPalette-Bmn93FZk.js"
+      "_commandPalette-QGr_Tq0X.js"
     ],
     "css": [
-      "assets/manager-C0PnMXmp.css"
+      "assets/manager-BOi4CliN.css"
     ]
   },
   "index.html": {
-    "file": "assets/main-Bm6W7Um2.js",
+    "file": "assets/main-D1mQFyWk.js",
     "name": "main",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_commandPalette-Bmn93FZk.js"
+      "_commandPalette-QGr_Tq0X.js"
     ],
     "css": [
       "assets/main-J2mQOQcL.css"
     ]
   },
   "src/modes/default/DefaultMode.ts": {
-    "file": "assets/DefaultMode-BEoxu1n4.js",
+    "file": "assets/DefaultMode-Daf-jN3p.js",
     "name": "DefaultMode",
     "src": "src/modes/default/DefaultMode.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_commandPalette-Bmn93FZk.js"
+      "_commandPalette-QGr_Tq0X.js"
     ]
   },
   "src/modes/electricity/ElectricityMode.ts": {
-    "file": "assets/ElectricityMode-BPtN2dOX.js",
+    "file": "assets/ElectricityMode-CYGGnrsh.js",
     "name": "ElectricityMode",
     "src": "src/modes/electricity/ElectricityMode.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_commandPalette-Bmn93FZk.js",
-      "_colorScales-CCp75tOV.js"
+      "_commandPalette-QGr_Tq0X.js",
+      "_colorScales-BY3XIXlr.js"
     ]
   },
   "src/modes/environment/EnvironmentMode.ts": {
-    "file": "assets/EnvironmentMode-G8xoH20j.js",
+    "file": "assets/EnvironmentMode-C0Yq3dhD.js",
     "name": "EnvironmentMode",
     "src": "src/modes/environment/EnvironmentMode.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_commandPalette-Bmn93FZk.js",
-      "_colorScales-CCp75tOV.js"
+      "_commandPalette-QGr_Tq0X.js",
+      "_colorScales-BY3XIXlr.js"
     ]
   },
   "src/modes/occupancy/OccupancyMode.ts": {
-    "file": "assets/OccupancyMode-DEeq8iDu.js",
+    "file": "assets/OccupancyMode-DAPP0Y68.js",
     "name": "OccupancyMode",
     "src": "src/modes/occupancy/OccupancyMode.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_commandPalette-Bmn93FZk.js",
-      "_colorScales-CCp75tOV.js"
+      "_commandPalette-QGr_Tq0X.js",
+      "_colorScales-BY3XIXlr.js"
     ]
   }
 }

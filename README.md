@@ -11,9 +11,10 @@ build remains private in
 [`Nexttab-Intelligent-Solution/ihapm-bms-ui`](https://github.com/Nexttab-Intelligent-Solution/ihapm-bms-ui).
 
 The showcase includes the dashboard, floor navigation, floor and unit status,
-simulated controls, automation explanations, incident context, privacy-aware
-camera affordances, trends, tour mode, and the responsive manager view. Data is
-seeded locally so the page works as a standalone GitHub Pages deployment.
+simulated controls, automation explanations, retained incident coordination,
+privacy-safe shared-area camera evidence, trends, tour mode, and the responsive
+manager view. Data is seeded locally so the page works as a standalone GitHub
+Pages deployment.
 
 The public build starts at the low FX tier: DPR 1, roughly 30 fps, no fog, and
 direct rendering without bloom or scanline post-processing. The Building
