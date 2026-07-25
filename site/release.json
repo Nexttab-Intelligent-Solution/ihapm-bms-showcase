@@ -1,0 +1,29 @@
+{
+  "milestone": "M14",
+  "source": {
+    "repository": "Nexttab-Intelligent-Solution/ihapm-bms-ui",
+    "commit": "889a929ca6d65e01ecf33b80aaea04e7cb1b651c",
+    "pullRequest": 9
+  },
+  "build": {
+    "builtAt": "2026-07-25T16:20:36Z",
+    "mode": "showcase",
+    "basePath": "/ihapm-bms-showcase/"
+  },
+  "entrypoints": {
+    "demo": {
+      "html": "index.html",
+      "asset": "assets/main-BBz_6_ap.js",
+      "sha256": "3d01d0a5f8b238226b35f534c310e034038f79c2b3e84a6a8601296a0192b5dd"
+    },
+    "manager": {
+      "html": "examples/manager/index.html",
+      "asset": "assets/manager-BjGp5odf.js",
+      "sha256": "d87330423ae16ba7862f66233a22c1ebc5356f14ae09de9925213df979f3d2dd"
+    },
+    "frontDesk": {
+      "asset": "assets/frontDeskWorkspace-Cp6KjT6P.js",
+      "sha256": "8a826fdba58e41b4d267aedf626bfc302d970cae63dfe6dc56adde7311f69ceb"
+    }
+  }
+}

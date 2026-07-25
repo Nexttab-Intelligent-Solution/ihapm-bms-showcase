@@ -1,13 +1,13 @@
 {
-  "_colorScales-Do-Jt3Qx.js": {
-    "file": "assets/colorScales-Do-Jt3Qx.js",
+  "_colorScales-C4eYgLx1.js": {
+    "file": "assets/colorScales-C4eYgLx1.js",
     "name": "colorScales",
     "imports": [
-      "_commandPalette-LYpDYkaP.js"
+      "_commandPalette-CxX55ws1.js"
     ]
   },
-  "_commandPalette-LYpDYkaP.js": {
-    "file": "assets/commandPalette-LYpDYkaP.js",
+  "_commandPalette-CxX55ws1.js": {
+    "file": "assets/commandPalette-CxX55ws1.js",
     "name": "commandPalette",
     "dynamicImports": [
       "src/modes/default/DefaultMode.ts",
@@ -16,67 +16,80 @@
       "src/modes/occupancy/OccupancyMode.ts"
     ]
   },
+  "examples/manager/frontDeskWorkspace.ts": {
+    "file": "assets/frontDeskWorkspace-Cp6KjT6P.js",
+    "name": "frontDeskWorkspace",
+    "src": "examples/manager/frontDeskWorkspace.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "examples/manager/index.html",
+      "_commandPalette-CxX55ws1.js"
+    ]
+  },
   "examples/manager/index.html": {
-    "file": "assets/manager-vGXw9nzk.js",
+    "file": "assets/manager-BjGp5odf.js",
     "name": "manager",
     "src": "examples/manager/index.html",
     "isEntry": true,
     "imports": [
-      "_commandPalette-LYpDYkaP.js"
+      "_commandPalette-CxX55ws1.js"
+    ],
+    "dynamicImports": [
+      "examples/manager/frontDeskWorkspace.ts"
     ],
     "css": [
-      "assets/manager-BOi4CliN.css"
+      "assets/manager-C4iufd4A.css"
     ]
   },
   "index.html": {
-    "file": "assets/main-7Y7823Yr.js",
+    "file": "assets/main-BBz_6_ap.js",
     "name": "main",
     "src": "index.html",
     "isEntry": true,
     "imports": [
-      "_commandPalette-LYpDYkaP.js"
+      "_commandPalette-CxX55ws1.js"
     ],
     "css": [
       "assets/main-J2mQOQcL.css"
     ]
   },
   "src/modes/default/DefaultMode.ts": {
-    "file": "assets/DefaultMode-CY496Raq.js",
+    "file": "assets/DefaultMode-CEXpPCpu.js",
     "name": "DefaultMode",
     "src": "src/modes/default/DefaultMode.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_commandPalette-LYpDYkaP.js"
+      "_commandPalette-CxX55ws1.js"
     ]
   },
   "src/modes/electricity/ElectricityMode.ts": {
-    "file": "assets/ElectricityMode-mxev1r-H.js",
+    "file": "assets/ElectricityMode-BJvowrom.js",
     "name": "ElectricityMode",
     "src": "src/modes/electricity/ElectricityMode.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_commandPalette-LYpDYkaP.js",
-      "_colorScales-Do-Jt3Qx.js"
+      "_commandPalette-CxX55ws1.js",
+      "_colorScales-C4eYgLx1.js"
     ]
   },
   "src/modes/environment/EnvironmentMode.ts": {
-    "file": "assets/EnvironmentMode-CuM7uKzE.js",
+    "file": "assets/EnvironmentMode-DwZY3w4N.js",
     "name": "EnvironmentMode",
     "src": "src/modes/environment/EnvironmentMode.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_commandPalette-LYpDYkaP.js",
-      "_colorScales-Do-Jt3Qx.js"
+      "_commandPalette-CxX55ws1.js",
+      "_colorScales-C4eYgLx1.js"
     ]
   },
   "src/modes/occupancy/OccupancyMode.ts": {
-    "file": "assets/OccupancyMode-CuB7BAqH.js",
+    "file": "assets/OccupancyMode-DbNhQhZb.js",
     "name": "OccupancyMode",
     "src": "src/modes/occupancy/OccupancyMode.ts",
     "isDynamicEntry": true,
     "imports": [
-      "_commandPalette-LYpDYkaP.js",
-      "_colorScales-Do-Jt3Qx.js"
+      "_commandPalette-CxX55ws1.js",
+      "_colorScales-C4eYgLx1.js"
     ]
   }
 }

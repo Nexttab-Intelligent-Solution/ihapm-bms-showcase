@@ -13,8 +13,11 @@ build remains private in
 The showcase includes the dashboard, floor navigation, floor and unit status,
 simulated controls, automation explanations, retained incident coordination,
 privacy-safe shared-area camera evidence, trends, tour mode, and the responsive
-manager view. Data is seeded locally so the page works as a standalone GitHub
-Pages deployment.
+manager view. The manager starts canvas-first with one movable task workbench
+and adds a synthetic hotel front-desk journey for date-range availability,
+reservation, room assignment, check-in/out, 3D room location, and housekeeping
+readiness. Data is seeded locally so the page works as a standalone GitHub Pages
+deployment.
 
 The public build starts at the low FX tier: DPR 1, roughly 30 fps, no fog, and
 direct rendering without bloom or scanline post-processing. Its structural
@@ -35,3 +38,5 @@ VITE_SHOWCASE=1 VITE_BASE_PATH=/ihapm-bms-showcase/ npm run build
 ```
 
 Run the private repository's bundle check before committing a replacement.
+Each published `site/release.json` records the merged private-source commit and
+SHA-256 hashes for the demo, manager, and front-desk entry assets.
