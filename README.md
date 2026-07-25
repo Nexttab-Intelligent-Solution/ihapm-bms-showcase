@@ -15,6 +15,10 @@ simulated controls, automation explanations, incident context, privacy-aware
 camera affordances, trends, tour mode, and the responsive manager view. Data is
 seeded locally so the page works as a standalone GitHub Pages deployment.
 
+The public build starts at the low FX tier: DPR 1, roughly 30 fps, no fog, and
+direct rendering without bloom or scanline post-processing. The Building
+Manager's FX selector can still enable medium or high on capable hardware.
+
 ## Deployment
 
 The Pages workflow deploys the contents of `site/` on every push to `main` and
