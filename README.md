@@ -4,6 +4,12 @@ Live static showcase for the IHAPM holographic building-management interface:
 
 <https://nexttab-intelligent-solution.github.io/ihapm-bms-showcase/>
 
+Current release: **v0.2.0**. Open the
+[Building Manager](https://nexttab-intelligent-solution.github.io/ihapm-bms-showcase/examples/manager/)
+and use **Search** to find rooms, floors, and floor plans. This release improves
+keyboard navigation, keeps control editors stable during live updates, stops
+hidden workspace rebuilds, and fixes scrolling and automation scope behavior.
+
 This repository contains only the compiled, seeded-data demo used for public
 review. It does not contain the private source repository, operator credentials,
 provider API keys, or a live BMS connection. The production-oriented operator
@@ -38,5 +44,5 @@ VITE_SHOWCASE=1 VITE_BASE_PATH=/ihapm-bms-showcase/ npm run build
 ```
 
 Run the private repository's bundle check before committing a replacement.
-Each published `site/release.json` records the merged private-source commit and
+Each published `site/release.json` records the release version, merged private-source commit and
 SHA-256 hashes for the demo, manager, and front-desk entry assets.

@@ -1,29 +1,35 @@
 {
-  "milestone": "M14",
+  "version": "0.2.0",
+  "milestone": "M16 plus performance and operator usability",
   "source": {
     "repository": "Nexttab-Intelligent-Solution/ihapm-bms-ui",
-    "commit": "889a929ca6d65e01ecf33b80aaea04e7cb1b651c",
-    "pullRequest": 9
+    "commit": "0abddd6ba566de73cc4faf79ce6cd981519dbfa6",
+    "pullRequest": 10,
+    "tag": "v0.2.0"
   },
   "build": {
-    "builtAt": "2026-07-25T16:20:36Z",
+    "builtAt": "2026-09-10T03:57:03.711Z",
     "mode": "showcase",
     "basePath": "/ihapm-bms-showcase/"
   },
   "entrypoints": {
     "demo": {
       "html": "index.html",
-      "asset": "assets/main-BBz_6_ap.js",
-      "sha256": "3d01d0a5f8b238226b35f534c310e034038f79c2b3e84a6a8601296a0192b5dd"
+      "asset": "assets/main-tiQaEgi4.js",
+      "sha256": "5590db1f262024af6617838de30bf4cb70b0c5add0b2836c4f8cf915ddb69c2f"
     },
     "manager": {
       "html": "examples/manager/index.html",
-      "asset": "assets/manager-BjGp5odf.js",
-      "sha256": "d87330423ae16ba7862f66233a22c1ebc5356f14ae09de9925213df979f3d2dd"
+      "asset": "assets/manager-CzybrqGI.js",
+      "sha256": "f1db61ca7d0d3855deb66ab4409bea719f1f835c41144fceebb3c81825cc1bd1"
     },
     "frontDesk": {
-      "asset": "assets/frontDeskWorkspace-Cp6KjT6P.js",
-      "sha256": "8a826fdba58e41b4d267aedf626bfc302d970cae63dfe6dc56adde7311f69ceb"
+      "asset": "assets/frontDeskWorkspace-BerbkoGd.js",
+      "sha256": "ca9af68409d048b4b6ed92c124f283811b369f4a7ea340e7af24ac559880f8b3"
+    },
+    "shared": {
+      "asset": "assets/commandPalette-DmY8smvG.js",
+      "sha256": "21ebbf611d8f2322eb8bb318468563278604639cc63f1847df9bf807e3e620c5"
     }
   }
 }
