@@ -4,10 +4,15 @@ Live static showcase for the IHAPM holographic building-management interface:
 
 <https://nexttab-intelligent-solution.github.io/ihapm-bms-showcase/>
 
-Current build: **v0.2.0 + PEA Training Stay** (28 October 2026, source
-commit `ebd51b0`). Open the
+Current build: **v0.2.0 + PEA Training Stay v5** (28 October 2026, source
+commit `2ea12ee`). Open the
 [Building Manager](https://nexttab-intelligent-solution.github.io/ihapm-bms-showcase/examples/manager/)
-and use **Search** to find rooms, floors, and floor plans, or the
+— it shows the property's own model from the customer's v5 handoff: two
+curved wings, A on the left and B on the right, three floors of twelve rooms
+each with door codes `A101` … `B312`, about 30 % of them in house (lit rooms
+are occupied; vacant rooms are dark on the economy setpoint), `B311` waiting
+for housekeeping and `B312` out of service — and use **Search** to find rooms
+(try `A203`), floors, and floor plans, or the
 [Booking site](https://nexttab-intelligent-solution.github.io/ihapm-bms-showcase/examples/booking/)
 — PEA Training Stay, the training centre's accommodation (Thai, phone and
 desktop): search the stay, take single-bed and twin-bed rooms at 900 baht,
