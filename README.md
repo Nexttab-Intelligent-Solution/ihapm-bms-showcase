@@ -4,17 +4,21 @@ Live static showcase for the IHAPM holographic building-management interface:
 
 <https://nexttab-intelligent-solution.github.io/ihapm-bms-showcase/>
 
-Current build: **v0.2.0 + reservations + pairing** (28 October 2026, source
-commit `35bb350`). Open the
+Current build: **v0.2.0 + PEA Training Stay** (28 October 2026, source
+commit `ebd51b0`). Open the
 [Building Manager](https://nexttab-intelligent-solution.github.io/ihapm-bms-showcase/examples/manager/)
 and use **Search** to find rooms, floors, and floor plans, or the
 [Booking site](https://nexttab-intelligent-solution.github.io/ihapm-bms-showcase/examples/booking/)
-(Thai, phone and desktop): search the demo project, compare two buildings and
-room types, hold a room for 15 minutes, confirm and get a confirmation code.
-The site and the manager share one simulated inventory in your browser, so a
-hold placed on the site appears on the manager's **Availability** chart and a
-confirmed stay in its arrivals list. To run them on two devices (a phone and a
-desk), open both with the same pairing code, for example
+— PEA Training Stay, the training centre's accommodation (Thai, phone and
+desktop): search the stay, take single-bed and twin-bed rooms at 900 baht,
+hold them for 15 minutes, confirm with a deposit or pay at arrival and get a
+`PEA-` confirmation code; look the booking up, print it or cancel it under the
+policy fee. The site and the manager sell the same rooms, so a hold placed on
+the site appears on the manager's **Availability** chart, a confirmed stay in
+its arrivals list, and a front-desk check-in switches that room's lights on
+and its air-conditioning to 25 °C in the 3D scene (check-out switches them
+off); the guest's lookup then reads เข้าพักแล้ว. To run them on two devices
+(a phone and a desk), open both with the same pairing code, for example
 `…/examples/manager/?pair=DEMO42` and `…/examples/booking/?pair=DEMO42`, or
 generate a code in the booking site's demo drawer: the devices then share the
 inventory through a public MQTT broker (demo data only; `?pair=off` forgets
