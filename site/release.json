@@ -1,40 +1,48 @@
 {
   "version": "0.2.0",
-  "milestone": "Reservation engine (Phase 0), front-desk availability calendar, light theme, chime cues and the public booking site (Phase 2b showcase)",
+  "milestone": "Reservation engine (Phase 0), front-desk availability calendar, light theme, chime cues, the public booking site (Phase 2b showcase) with desktop and phone layouts, and cross-device pairing over a public MQTT broker",
   "source": {
     "repository": "Nexttab-Intelligent-Solution/ihapm-bms-ui",
-    "commit": "2a9518c5dbf418e8cd8706ed20f78e43378690c8",
-    "pullRequest": 14,
+    "commit": "35bb35085b8f4bb0b09b0e2449c40e20dc5ec2ae",
+    "pullRequest": 15,
     "tag": null
   },
   "build": {
-    "builtAt": "2026-10-28T09:30:08.813Z",
+    "builtAt": "2026-10-28T10:26:15.379829Z",
     "mode": "showcase",
     "basePath": "/ihapm-bms-showcase/"
   },
   "entrypoints": {
     "demo": {
       "html": "index.html",
-      "asset": "assets/main-DFpVSgad.js",
-      "sha256": "61cafa67b9e58afb944b755a776082f0d365ece51a1e0610130d8f363b0ec5f6"
+      "asset": "assets/main-i_Enfoa_.js",
+      "sha256": "fe07af46beb78d9397c8be01251bba566e8fd4a408ce27ecf72fca0209922b5d"
     },
     "manager": {
       "html": "examples/manager/index.html",
-      "asset": "assets/manager-B2g96uHy.js",
-      "sha256": "b0a85eeb3a2555c477d1da8c40a35ee98d4b6f536ddb2e5c01db09b99103af72"
+      "asset": "assets/manager-GCta805K.js",
+      "sha256": "e9804efb0d58255343054bf60505495fab70416c339dcff3bd53374e997440be"
     },
     "booking": {
       "html": "examples/booking/index.html",
-      "asset": "assets/booking-CMGH1XxL.js",
-      "sha256": "1a9159a7692bc0914d5f4f36c4b3033f8d464711df38ff4a5ee87592da1858b6"
+      "asset": "assets/booking-Da_V02ir.js",
+      "sha256": "8d7b2324b9b527d713f3cf5a88cd5216d7de9ea85e2a5f0e6caaba766942a128"
     },
     "frontDesk": {
-      "asset": "assets/frontDeskWorkspace-Cev_doGB.js",
-      "sha256": "fcf849fb50102698e7a3f1fbe3ed11743a491d7d847ffdb1bb54700f78d98232"
+      "asset": "assets/frontDeskWorkspace-BHPgnucV.js",
+      "sha256": "c5086871d2d85eb744aa034970ef39bc845089d3770ee1d9f5b1ed3644c840b0"
     },
     "shared": {
-      "asset": "assets/theme-DgAcPirS.js",
-      "sha256": "8c8a76e44f977b5ca90da0ae73b07c9fe33a605ca0a5d148d340ff98f69449f0"
+      "asset": "assets/theme-Cmo5dwvQ.js",
+      "sha256": "39ec32755cb9fb42fb486885562e1e5295720dc2d55b2de3cee919af75561efe"
+    },
+    "relay": {
+      "asset": "assets/mqttSyncRelay-Dq-Ne2Vv.js",
+      "sha256": "337daa707c46217e69999a7f2f0f9f71e30937d3d806e83711879c1731eb95f2"
+    },
+    "mqttClient": {
+      "asset": "assets/mqtt.esm-Bh3cXDGi.js",
+      "sha256": "9f2def10cbf558fef9dc6c0f75ebd7e5864dc7eff1622312731a53a48a079f1d"
     }
   }
 }

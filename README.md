@@ -4,18 +4,22 @@ Live static showcase for the IHAPM holographic building-management interface:
 
 <https://nexttab-intelligent-solution.github.io/ihapm-bms-showcase/>
 
-Current build: **v0.2.0 + reservations** (28 October 2026, source commit
-`2a9518c`). Open the
+Current build: **v0.2.0 + reservations + pairing** (28 October 2026, source
+commit `35bb350`). Open the
 [Building Manager](https://nexttab-intelligent-solution.github.io/ihapm-bms-showcase/examples/manager/)
-and use **Search** to find rooms, floors, and floor plans, or the new
+and use **Search** to find rooms, floors, and floor plans, or the
 [Booking site](https://nexttab-intelligent-solution.github.io/ihapm-bms-showcase/examples/booking/)
-(Thai, phone-first): search the demo project, compare two buildings and room
-types, hold a room for 15 minutes, confirm and get a confirmation code. The
-site and the manager share one simulated inventory in your browser, so a hold
-placed on the site appears on the manager's **Availability** chart and a
-confirmed stay in its arrivals list. This build also adds the front desk's
-availability calendar, a light theme (☀/☾ in the manager topbar) and new
-chime cues.
+(Thai, phone and desktop): search the demo project, compare two buildings and
+room types, hold a room for 15 minutes, confirm and get a confirmation code.
+The site and the manager share one simulated inventory in your browser, so a
+hold placed on the site appears on the manager's **Availability** chart and a
+confirmed stay in its arrivals list. To run them on two devices (a phone and a
+desk), open both with the same pairing code, for example
+`…/examples/manager/?pair=DEMO42` and `…/examples/booking/?pair=DEMO42`, or
+generate a code in the booking site's demo drawer: the devices then share the
+inventory through a public MQTT broker (demo data only; `?pair=off` forgets
+the code). This build also has the front desk's availability calendar, a light
+theme (☀/☾ in the manager topbar) and chime cues.
 
 This repository contains only the compiled, seeded-data demo used for public
 review. It does not contain the private source repository, operator credentials,
